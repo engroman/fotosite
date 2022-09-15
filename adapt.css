@@ -198,6 +198,7 @@ font-size: 50px;
     .gallety__btn {
         margin-left: 110px;
     }
+}
     @media (max-width:240px) {
    .navlist ul li a {
     font-size: 10px;
@@ -244,4 +245,4 @@ font-size: 50px;
     width: 200px;
 }
 }
-}
+
