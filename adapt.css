@@ -198,4 +198,50 @@ font-size: 50px;
     .gallety__btn {
         margin-left: 110px;
     }
+    @media (max-width:240px) {
+   .navlist ul li a {
+    font-size: 10px;
+    padding-right: 4px;
+   } 
+   .header__title {
+    font-size: 36px;
+   }
+   .media {
+    margin: 0;
+   }
+   .about__zenith img {
+    width: 238px;
+   }
+   .about__zenith {
+    width: 238px;
+   }
+ .happy__clients {
+    padding-left: 40px;
+ }
+ .about-card {
+    margin-bottom: 20px;
+ }
+ .about__pictures {
+    margin-bottom: 370px;
+ }
+ .portfolio__text {
+    padding-bottom: 5px;
+ }
+ .portfolio__title {
+    padding-bottom: 5px;
+    font-size: 24px;
+ }
+ .readmore {
+    font-size: 12px;
+ }
+ .gallety__btn {
+    margin-left: 70px;
+ }
+ .img-grig img {
+    object-fit: contain;
+ }
+ form {
+    width: 200px;
+}
+}
 }
