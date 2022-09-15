@@ -1,0 +1,201 @@
+
+@media (max-width:1400px) {
+    .portfolio__info {  
+        padding-top: 50px;
+    }  
+ .portfolio {
+    flex-direction: column;
+ }
+ .portfolio__info {
+    max-width: 100%;
+    height: 370px;
+    border: 1px solid #4d407c;
+    padding: 50px 75px; 
+}
+.gallery-img {
+    justify-content: space-around;
+    margin: 15px 150px;
+    
+}
+.gallety__btn  {
+   margin-left: 75px;
+}
+}
+
+@media (max-width:1200px) {
+.portfolio__info { 
+    padding-top: 50px;
+}
+.portfolio__title {
+    padding-bottom: 40px;
+}
+.blog__cards {
+    flex-direction: column;
+padding-left: 25%;
+}
+
+}
+@media (max-width:922px) {
+    .about {
+        flex-direction: column;
+        padding-left: 25px;
+        padding-right: 25px;
+        align-items: center;
+    }
+    .img-col {
+        display: none;
+    }
+    .gallety__btn {
+        margin-left: 130px;
+    }
+.happy__clients {
+   display: grid;
+   grid-template-columns: 1fr 1fr;
+   row-gap: 20px;
+   padding-left: 100px;
+}
+}
+@media (max-width:768px) {
+  
+    .blog__card {
+     
+        margin-right: 65px;
+        overflow: hidden;
+    }
+    .blog__card:last-child {
+        margin-right: 65px;
+    }
+    .img-grig {
+        overflow:hidden;
+    
+    }
+    nav {
+        flex-direction: column;
+        margin-bottom: 130px;
+    }
+    .navlist ul li a {
+        padding-left: 0px;
+    }
+}
+    
+@media (max-width:480px) {
+    .media img {
+        margin-top: 100px; 
+     }
+    .about__zenith img {
+        width: 414px;
+    
+    }
+    .about__zenith  {
+        width: 414px;
+      height: 600px;
+    }
+    .about__button {
+        font-size: 10px;
+        padding: 10px 20px;
+    }
+    .about__pictures {
+        height: 200px;
+    }
+    .happy__clients {
+        padding-left: 50px;
+    }
+    .portfolio__info {
+        padding: 30px;
+    }
+    .portfolio__title {
+        padding-bottom: 15px;
+        font-size: 30px;
+    }
+    .gallery-img {
+        margin: 15px;
+    }
+    .gallety__btn {
+        padding: 6px 20px;
+        font-size: 12px;
+    }
+    .blog__container {
+        padding: 0 25px;
+    }
+    .blog__cards {
+        padding: 0;
+    }
+    .blog__card {
+        margin: 0;
+    }
+    .card-image {
+        margin: 0;
+    }
+    form {
+        width: 250px;
+   }
+   .send {
+    font-size: 10px;
+    margin: 0;
+    padding: 6px 15px;
+   }
+   .myworks {
+padding: 10px 20px;
+font-size: 14px;
+   }
+   .credits {
+    font-size: 10px;
+   }
+}
+@media (max-width:320px) {
+    nav {
+        margin-bottom: 50px;
+    }
+    .header__title {
+font-size: 50px;
+    }
+    .about {
+        margin: 20px 0;
+    }
+    .about__zenith {
+       max-width: 319px;
+    }
+    .about__zenith img {
+        width: 317px;
+        height: 460px;
+    }
+    .about__info {
+        margin-top: 20px;
+    }
+    .about__pictures {
+        flex-direction: column;
+        align-items: center;
+        margin-bottom: 450px;
+        text-align: center;
+    }
+    .card-title {
+        font-size: 14px;
+    }
+    .about__title {
+        font-size: 36px;
+    }
+    .happy__clients {
+        display: flex;
+        flex-direction: column;
+        padding-left: 80px;
+    }
+    .happy {
+        margin-bottom: 20px;
+    }
+    .portfolio__text {
+        font-size: 12px;
+
+    }
+    .portfolio__info {
+        padding: 10px;
+    }
+    .blog__card:last-child {
+        margin: 0;
+    }
+    .about__zenith {
+        height: 500px;
+    }
+    .gallety__btn {
+        margin-left: 110px;
+    }
+}
