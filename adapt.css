@@ -199,7 +199,7 @@ font-size: 50px;
         margin-left: 110px;
     }
 }
-    @media (max-width:240px) {
+    @media (max-width:277px) {
    .navlist ul li a {
     font-size: 10px;
     padding-right: 4px;
