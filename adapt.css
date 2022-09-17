@@ -142,7 +142,7 @@ font-size: 14px;
     font-size: 10px;
    }
 }
-@media (max-width:356px) {
+@media (max-width:380px) {
     nav {
         margin-bottom: 50px;
     }
